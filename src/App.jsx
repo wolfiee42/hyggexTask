@@ -1,4 +1,5 @@
 import './App.css'
+import BreadCrump from './components/breadCrump/BreadCrump';
 import NavigationSec from './components/navigationSec/NavigationSec'
 import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
@@ -14,6 +15,7 @@ function App() {
     <>
       <GlobalStyle />
       <NavigationSec />
+      <BreadCrump/>
     </>
   )
 }
