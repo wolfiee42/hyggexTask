@@ -9,7 +9,7 @@ font-family: 'Inter', sans-serif;
 const NavigationSec = () => {
     return (
         <StyledSpecificComponent >
-            <div className="max-w-[1400px] mx-auto my-5 flex justify-between items-center">
+            <div className="max-w-[1400px] mx-auto py-5 flex justify-between items-center">
                 <div>
                     <img src={logo} alt="Hyggex Logo" />
                 </div>
